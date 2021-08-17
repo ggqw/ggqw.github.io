@@ -1,0 +1,129 @@
+/* AB模版网 做最好的织梦整站模板下载网站 Www.AdminBuy.Cn */
+/* QQ：9490489 */
+/* 仿站：Fang.AdminBuy.Cn */
+/* 素材：Sc.AdminBuy.Cn */
+/* js特效：Js.AdminBuy.Cn */
+body {
+	width: 100%;
+	margin: 0 auto;
+	position: relative;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+html {
+	overflow-y: scroll;
+	position: relative;
+}
+
+#page-wrap {
+	width: 1003px;
+	margin: 0 auto;
+}
+
+p {
+	margin: 0 auto;
+}
+
+a img {
+	border: 0;
+}
+
+ul {
+	list-style: none;
+	margin: 0px auto;
+}
+
+h1 {
+	margin: 0 auto;
+}
+
+ul.dropdown {
+	position: relative;
+	line-height: 50px;
+	vertical-align: middle;
+	z-index: 9999;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+}
+
+ul.dropdown li {
+		flex: 1;
+		text-align: center;
+	font-weight: bold;
+	font-size: 14px;
+	position: relative;
+	line-height: 50px;
+	vertical-align: middle;
+	z-index: 9999;
+}
+ul.dropdown li:nth-child(2) {
+	flex: 2;
+}
+ul.dropdown li:nth-child(6) {
+	flex: 2;
+}
+ul.dropdown a:hover {
+	color: #f57720;
+	font-size: 14px;
+	background: #000000;
+	height: 50px;
+}
+
+ul.dropdown li a {
+	display: block;
+	font-size: 14px;
+	margin: 0;
+	color: #222;
+	position: relative;
+	z-index: 9999;
+	line-height: 50px;
+	vertical-align: middle;
+}
+
+ul.dropdown li a.hover {
+	background: #CF1A28;
+	position: relative;
+	
+}
+
+
+
+ul.dropdown ul {
+	display: none;
+	position: absolute;
+	left: -1px;
+	top: 0px;
+	font-size: 14px;
+	z-index: 10000;
+	color: #fff;
+}
+
+ul.dropdown ul li {
+	font-weight: bold;
+	float: right;
+	background: #68b343;
+	font-size: 14px;
+	color: #fff;
+	z-index: 10000;
+}
+
+ul.dropdown ul li a {
+	position: absolute;
+	display: block;
+	vertical-align: middle;
+	font-size: 14px;
+	background: #68b343 !important;
+	line-height: 35px;
+	color: #fff;
+}
+
+ul.dropdown ul li a:hover {
+	display: block;
+	font-size: 14px;
+	background: #68b343 !important;
+	color: #fff;
+}
